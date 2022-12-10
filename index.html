@@ -22,7 +22,7 @@
     <link href="./skyzm_files/css" rel="stylesheet" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./skyzm_files/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- owl-carousel -->
     <link rel="stylesheet" href="./skyzm_files/owl.carousel.css" />
     <!-- Font Awesome -->
@@ -38,7 +38,7 @@
     <!-- Animate -->
     <link rel="stylesheet" href="./skyzm_files/animate.css" />
     <!-- Ionicons -->
-    <link rel="stylesheet" href="./skyzm_files/ionicons.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Style -->
     <link rel="stylesheet" href="./skyzm_files/style.css" />
     <!-- Responsive -->
@@ -46,7 +46,7 @@
     <!-- custom style -->
     <link rel="stylesheet" href="./skyzm_files/custom.css" />
     <!-- Style customizer (Remove these two lines please) -->
-    <link rel="stylesheet" href="javascript:void(0)" data-style="styles" />
+    <link rel="stylesheet" data-style="styles" />
     <link rel="stylesheet" href="./skyzm_files/style-customizer.css" />
     <style type="text/css" id="jarallax-clip-0">
       #jarallax-container-0 {
@@ -89,6 +89,9 @@
                 />
               </a>
               <button
+              style="     background: transparent;
+    border: none !important;
+    font-size:0;"
                 class="navbar-toggler collapsed"
                 type="button"
                 data-toggle="collapse"
@@ -97,7 +100,10 @@
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-                <span class="ion-navicon"></span>
+                <img style="width: 30px; height: 35px;"
+                src="./skyzm_files/hamburger.png"
+         
+              />
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto w-100 justify-content-end">
@@ -145,9 +151,9 @@
               <h2 class="iq-mb-20 iq-tw-9 r-mt-30">
                 SKYZM
               </h2>
-              <p>
-                Keeping up with the latest tech trends
-              </p>
+              <i style="font-size: 20px;">
+                Delivering high-quality products that are feature-driven and resilient 
+              </i><br><br>
               <a href="#contact" class="button bt-black iq-mt-5"
                 >Hire Us</a
               >
@@ -186,27 +192,6 @@
       id="how-works"
       class="overview-block-pb how-works r-mt-40 iq-rmt-80"
     >
-      <div class="container-fluid">
-        <div class="row flex-row-reverse">
-          <div class="col-lg-6 col-md-6">
-            <img
-              class="iq-works-imgs img-fluid"
-              src="./skyzm_files/12.png"
-              alt="drive01"
-            />
-          </div>
-          <div class="col-lg-4 col-md-5 align-self-center">
-            <h2 class="iq-mb-25 iq-tw-6">Simply dummy text</h2>
-            <p class="iq-font-15">
-              Simply dummy text of the printing and typesetting industry. Lorem
-              Ipsum has been the industry's standard dummy text ever since the
-              1500s, when an unknown printer took a galley of type and scrambled
-              it to make a type specimen book.
-            </p>
-            <a href="javascript:void(0)" class="button iq-mt-5">Download</a>
-          </div>
-        </div>
-      </div>
     </section>
 
     <div
@@ -218,7 +203,7 @@
           <div class="col-sm-12">
             <div class="text-center">
               <h3 class="iq-tw-6 iq-mb-20">
-                Lorem Ipsum has been the industry's
+                Our Services
               </h3>
             </div>
           </div>
@@ -264,29 +249,7 @@
       </div>
     </div>
 
-    <section id="great-features" class="overview-block-ptb how-works r-mt-40">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-6 col-md-6">
-            <img
-              class="iq-works-imgs img-fluid"
-              src="./skyzm_files/14.png"
-              alt="drive01"
-            />
-          </div>
-          <div class="col-lg-4 col-md-5 align-self-center">
-            <h2 class="iq-tw-6 iq-mb-25">Lorem Ipsum has ?</h2>
-            <p class="iq-font-15">
-              Simply dummy text of the printing and typesetting industry. Lorem
-              Ipsum has been the industry's standard dummy text ever since the
-              1500s, when an unknown printer took a galley of type and scrambled
-              it to make a type specimen book.
-            </p>
-            <a href="javascript:void(0)" class="button iq-mt-10">Click Here</a>
-          </div>
-        </div>
-      </div>
-    </section>
+   
 
     <section class="overview-block-pb how-works r-mt-40 iq-rmt-80">
       <div class="container-fluid">
@@ -311,7 +274,7 @@
       </div>
     </section>
 
-    <section class="overview-block-pb how-works">
+    <section id="contact" class="overview-block-pb how-works">
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-6 col-md-6">
@@ -322,98 +285,37 @@
             />
           </div>
           <div class="col-lg-4 col-md-5 align-self-center">
-            <h2 class="iq-tw-6 iq-mb-25">Lorem Ipsum has ?</h2>
+            <h2 class="iq-tw-6 iq-mb-25">Contact Us</h2>
             <p class="iq-font-15">
-              Simply dummy text of the printing and typesetting industry. Lorem
-              Ipsum has been the industry's standard dummy text ever since the
-              1500s, when an unknown printer took a galley of type and scrambled
-              it to make a type specimen book.
+Interested in our services? Feel free to reach out to us and we'll be happy to collaborate with you!
             </p>
-            <a href="javascript:void(0)" class="button iq-mt-10">Click Here</a>
+                        <a style="color: grey;text-decoration: none; margin-right:5px;" href="mailto:skyzm-ltd@outlook.com"><i class="fa fa-envelope" style="font-size:20px"></i> </a> <span style="font-size:20px">   skyzm-ltd@outlook.com</span>
           </div>
         </div>
       </div>
     </section>
 
-    <section
-      class="overview-block-ptb iq-over-blue-80 text-center iq-parallax"
-      data-jarallax='{"speed": 0.6}'
-      style="background: none; z-index: 0"
-      data-jarallax-original-styles="background: url(images/bg/07.jpg);"
-    >
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 search-btn">
-            <h3 id="contact" class="iq-tw-6 iq-mb-10 iq-font-white">
-              Contact Us
-            </h3>
-            <h6 class="iq-font-white iq-mb-30">
- Interested in our services? Feel free to reach out to us and we'll be happy to collaborate with you!
-            </h6>
-            <a style="color: grey;text-decoration: none; margin-right:5px;" href="mailto:skyzm-ltd@outlook.com"><i class="fa fa-envelope" style="font-size:36px"></i> </a> <span style="font-size:36px">   skyzm-ltd@outlook.com</span>
-          </div>
-        </div>
-      </div>
-      <div
-        id="jarallax-container-0"
-        style="
-          position: absolute;
-          top: 0px;
-          left: 0px;
-          width: 100%;
-          height: 100%;
-          overflow: hidden;
-          pointer-events: none;
-          z-index: -100;
-        "
-      >
-        <div
-          style="
-            background-position: 50% 50%;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-image: url('https://templates.iqonic.design/skyzm/html/main/color/images/bg/07.jpg');
-            position: fixed;
-            top: 0px;
-            left: 0px;
-            width: 1440px;
-            height: 525.2px;
-            overflow: hidden;
-            pointer-events: none;
-            margin-top: 119.4px;
-            transform: translate3d(0px, 320.7px, 0px);
-          "
-        ></div>
-      </div>
-    </section>
     <!-- Footer -->
-    <footer class="iq-footerr iq-ptb-20">
-      <div class="container">
+    <footer style="background-color: rgba(74, 196, 243, 0.4);" class="iq-footerr  iq-ptb-20">
+      <div class="container" >
         <div class="row iq-mt-20 align-items-center">
           <div class="col-auto mr-auto">
             <ul class="link">
               <li class="d-inline-block img-fluid">
-                <img
+                                <img
                   class="img-fluid logo_img"
                   src="./skyzm_files/color-1.png"
                   alt="#"
-                />
-              </li>
-              <li class="d-inline-block iq-mr-10">
-                <a>Terms and Conditions</a>
-              </li>
-              <li class="d-inline-block">
-                <a> Privacy Policy</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-auto">
-            <div class="iq-copyright iq-ml-10">
-              Copyright 2023
-              <a href="">SKYZM LTD </a>
-              All Rights Reserved
+                />              </li>                            
+            <div style="display: inline" class="iq-copyright iq-ml-10">
+              © SKYZM LTD 2023
             </div>
+             </ul>
+
+
+
           </div>
+
         </div>
       </div>
     </footer>
