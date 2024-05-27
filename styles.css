@@ -112,6 +112,9 @@ footer {
 
 
 @media (max-width: 768px) {
+    nav {
+    display: none;
+  }
     header nav ul {
         flex-direction: column;
         align-items: center;
